@@ -1,0 +1,30 @@
+"casual":
+  "nonpast_indicative":
+    "affirmative":
+      "base": "う"
+      "attachment": ""
+    "negative":
+      "base": "あ"
+      "attachment": "ない"
+  "past_indicative":
+    "affirmative":
+      "base": "た"
+      "attachment": ""
+    "negative":
+      "base": "あ"
+      "attachment": "なかった"
+"polite":
+  "nonpast_indicative":
+    "affirmative":
+      "base": "い"
+      "attachment": "ます"
+    "negative":
+      "base": "い"
+      "attachment": "ません"
+  "past_indicative":
+    "affirmative":
+      "base": "い"
+      "attachment": "ました"
+    "negative":
+      "base": "い"
+      "attachment": "ませんでした"
