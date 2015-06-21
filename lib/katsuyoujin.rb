@@ -6,8 +6,19 @@ require 'katsuyoujin/base'
 require 'katsuyoujin/analyzer'
 
 module Katsuyoujin
-  CONJUGATIONS = { 'ichidan' => YAML.load_file('rules/ichidan/conjugations.yml'),
-                   'godan' => YAML.load_file('rules/godan/conjugations.yml') }
+  def self.root
+    File.dirname __dir__
+  end
+
+  def self.rules
+    File.join root, 'rules'
+  end
+
+  ICHIDAN_BASE_TABLE  = YAML.load_file File.join(Katsuyoujin.rules, 'ichidan/base.yml').freeze
+  GODAN_BASE_TABLE    = YAML.load_file File.join(Katsuyoujin.rules, 'godan/base.yml').freeze
+
+  CONJUGATIONS = { 'ichidan' => YAML.load_file(File.join(rules, 'ichidan/conjugations.yml')).freeze,
+                   'godan' => YAML.load_file(File.join(rules, 'godan/conjugations.yml')).freeze }
 
   def self.conjugate(word, *args, category: nil, hiragana: true)
     verb = Verb.new word

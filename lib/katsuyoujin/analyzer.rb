@@ -29,7 +29,7 @@ module Katsuyoujin
       case
       when ['する'].include?(base_form_hiragana.chars.last(2).join) then 'irregular'
       when 'くる' == base_form_hiragana then 'irregular'
-      when YAML.load_file('rules/godan/iru_eru.yml').include?(base_form_hiragana) then 'godan'
+      when YAML.load_file(File.join(Katsuyoujin.rules, 'godan/iru_eru.yml')).include?(base_form_hiragana) then 'godan'
       when ['iru', 'eru'].include?(base_form_hiragana.romaji.chars.last(3).join) then 'ichidan'
       else 'godan'
       end

@@ -2,9 +2,6 @@ module Katsuyoujin
   class Base
     attr_reader :verb, :base_letter
 
-    ICHIDAN_BASE_TABLE  = YAML.load_file 'rules/ichidan/base.yml'
-    GODAN_BASE_TABLE    = YAML.load_file 'rules/godan/base.yml'
-
     def initialize(verb, base_letter)
       @verb = verb
       @base_letter = base_letter
