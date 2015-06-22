@@ -1,0 +1,8 @@
+AlignParameters:
+  Enabled: false
+LineLength:
+  Max: 100
+Style/WordArray:
+  Enabled: false
+Style/Documentation:
+  Enabled: false

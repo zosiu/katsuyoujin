@@ -27,16 +27,39 @@ module Katsuyoujin
       fail ArgumentError('not a verb') unless base_form
 
       case
-      when GODAN_IRU_ERU.include?(base_form_hiragana) then 'godan'
-      when GODAN_KURU_SURU.include?(base_form) then 'godan'
-      when 'する' == base_form_hiragana then 'suru'
-      when 'くる' == base_form_hiragana then 'kuru'
-      when ['iru', 'eru'].include?(base_form_hiragana.romaji.chars.last(3).join) then 'ichidan'
+      when irregular_godan? then 'godan'
+      when suru? then 'suru'
+      when kuru? then 'kuru'
+      when ichidan? then 'ichidan'
       else 'godan'
       end
     end
 
     private
+
+    def suru?
+      'する' == base_form_hiragana
+    end
+
+    def kuru?
+      'くる' == base_form_hiragana
+    end
+
+    def godan_iru_eru?
+      GODAN_IRU_ERU.include?(base_form_hiragana)
+    end
+
+    def godan_kuru_suru?
+      GODAN_KURU_SURU.include?(base_form)
+    end
+
+    def irregular_godan?
+      godan_iru_eru? || godan_kuru_suru?
+    end
+
+    def ichidan?
+      ['iru', 'eru'].include? base_form_hiragana.romaji.chars.last(3).join
+    end
 
     def analysis
       @analysis ||= Kuromoji::Core.new.tokenize_with_hash word
