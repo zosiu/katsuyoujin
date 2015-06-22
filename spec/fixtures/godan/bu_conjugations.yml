@@ -1,0 +1,15 @@
+"呼ぶ":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "よぶ"
+      "negative": "よばない"
+    "past_indicative":
+      "affirmative": "よんだ"
+      "negative": "よばなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "よびます"
+      "negative": "よびません"
+    "past_indicative":
+      "affirmative": "よびました"
+      "negative": "よびませんでした"

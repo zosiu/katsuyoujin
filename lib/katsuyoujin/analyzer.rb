@@ -24,12 +24,13 @@ module Katsuyoujin
     end
 
     def verb_category
-      return nil unless base_form
+      fail ArgumentError('not a verb') unless base_form
 
       case
-      when ['する'].include?(base_form_hiragana.chars.last(2).join) then 'irregular'
-      when 'くる' == base_form_hiragana then 'irregular'
-      when YAML.load_file(File.join(Katsuyoujin.rules, 'godan/iru_eru.yml')).include?(base_form_hiragana) then 'godan'
+      when GODAN_IRU_ERU.include?(base_form_hiragana) then 'godan'
+      when GODAN_KURU_SURU.include?(base_form) then 'godan'
+      when 'する' == base_form_hiragana then 'suru'
+      when 'くる' == base_form_hiragana then 'kuru'
       when ['iru', 'eru'].include?(base_form_hiragana.romaji.chars.last(3).join) then 'ichidan'
       else 'godan'
       end

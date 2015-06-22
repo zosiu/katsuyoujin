@@ -11,7 +11,7 @@ module Katsuyoujin
       case category || verb.category
       when 'ichidan' then ichidan_base(verb, base_letter, hiragana: hiragana)
       when 'godan' then godan_base(verb, base_letter, hiragana: hiragana)
-      when 'irregular' then irregular_base(verb, base_letter, hiragana: hiragana)
+      when 'suru', 'kuru' then irregular_base(verb, base_letter, hiragana: hiragana)
       end
     end
 
@@ -24,7 +24,7 @@ module Katsuyoujin
     end
 
     def irregular_base(verb, base_letter, hiragana: true)
-      fail NotImplementedError
+      IRREGULAR_BASE_TABLE[base_letter][verb.hiragana_ending][hiragana ? 'hiragana' : 'kanji']
     end
 
     def verb_root(hiragana = true)

@@ -1,0 +1,15 @@
+"歩く":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "あるく"
+      "negative": "あるかない"
+    "past_indicative":
+      "affirmative": "あるいた"
+      "negative": "あるかなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "あるきます"
+      "negative": "あるきません"
+    "past_indicative":
+      "affirmative": "あるきました"
+      "negative": "あるきませんでした"

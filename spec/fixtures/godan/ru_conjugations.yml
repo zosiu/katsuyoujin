@@ -1,0 +1,15 @@
+"作る":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "つくる"
+      "negative": "つくらない"
+    "past_indicative":
+      "affirmative": "つくった"
+      "negative": "つくらなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "つくります"
+      "negative": "つくりません"
+    "past_indicative":
+      "affirmative": "つくりました"
+      "negative": "つくりませんでした"

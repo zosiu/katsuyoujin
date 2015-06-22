@@ -1,0 +1,15 @@
+"話す":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "はなす"
+      "negative": "はなさない"
+    "past_indicative":
+      "affirmative": "はなした"
+      "negative": "はなさなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "はなします"
+      "negative": "はなしません"
+    "past_indicative":
+      "affirmative": "はなしました"
+      "negative": "はなしませんでした"

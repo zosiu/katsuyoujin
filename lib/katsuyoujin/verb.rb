@@ -16,8 +16,20 @@ module Katsuyoujin
       @analyzer.verb_category
     end
 
+    def irregular?
+      ['kuru', 'suru'].include? category
+    end
+
     def ending
-      dictionary_form[-1]
+      irregular? ? dictionary_form[-2..-1] : dictionary_form[-1]
+    end
+
+    def hiragana_ending
+      case category
+      when 'suru' then 'する'
+      when 'kuru' then 'くる'
+      else ending
+      end
     end
 
     def root
@@ -25,7 +37,7 @@ module Katsuyoujin
     end
 
     def hiragana_root
-      dictionary_form_hiragana.chomp ending
+      dictionary_form_hiragana.chomp hiragana_ending
     end
   end
 end

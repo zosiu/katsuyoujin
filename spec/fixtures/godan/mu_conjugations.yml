@@ -1,0 +1,15 @@
+"飲む":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "のむ"
+      "negative": "のまない"
+    "past_indicative":
+      "affirmative": "のんだ"
+      "negative": "のまなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "のみます"
+      "negative": "のみません"
+    "past_indicative":
+      "affirmative": "のみました"
+      "negative": "のみませんでした"

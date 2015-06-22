@@ -1,0 +1,15 @@
+"洗う":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "あらう"
+      "negative": "あらわない"
+    "past_indicative":
+      "affirmative": "あらった"
+      "negative": "あらわなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "あらいます"
+      "negative": "あらいません"
+    "past_indicative":
+      "affirmative": "あらいました"
+      "negative": "あらいませんでした"

@@ -1,0 +1,30 @@
+"する":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "する"
+      "negative": "しない"
+    "past_indicative":
+      "affirmative": "した"
+      "negative": "しなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "します"
+      "negative": "しません"
+    "past_indicative":
+      "affirmative": "しました"
+      "negative": "しませんでした"
+"来る":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "くる"
+      "negative": "こない"
+    "past_indicative":
+      "affirmative": "きた"
+      "negative": "こなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "きます"
+      "negative": "きません"
+    "past_indicative":
+      "affirmative": "きました"
+      "negative": "きませんでした"

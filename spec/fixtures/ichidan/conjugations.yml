@@ -1,0 +1,15 @@
+"食べる":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "たべる"
+      "negative": "たべない"
+    "past_indicative":
+      "affirmative": "たべた"
+      "negative": "たべなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "たべます"
+      "negative": "たべません"
+    "past_indicative":
+      "affirmative": "たべました"
+      "negative": "たべませんでした"

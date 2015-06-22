@@ -1,0 +1,15 @@
+"死ぬ":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "しぬ"
+      "negative": "しなない"
+    "past_indicative":
+      "affirmative": "しんだ"
+      "negative": "しななかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "しにます"
+      "negative": "しにません"
+    "past_indicative":
+      "affirmative": "しにました"
+      "negative": "しにませんでした"

@@ -1,0 +1,15 @@
+"待つ":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "まつ"
+      "negative": "またない"
+    "past_indicative":
+      "affirmative": "まった"
+      "negative": "またなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "まちます"
+      "negative": "まちません"
+    "past_indicative":
+      "affirmative": "まちました"
+      "negative": "まちませんでした"

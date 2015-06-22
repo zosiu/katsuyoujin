@@ -1,0 +1,15 @@
+"泳ぐ":
+  "casual":
+    "nonpast_indicative":
+      "affirmative": "およぐ"
+      "negative": "およがない"
+    "past_indicative":
+      "affirmative": "およいだ"
+      "negative": "およがなかった"
+  "polite":
+    "nonpast_indicative":
+      "affirmative": "およぎます"
+      "negative": "およぎません"
+    "past_indicative":
+      "affirmative": "およぎました"
+      "negative": "およぎませんでした"
