@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "たべた"
       "negative": "たべなかった"
+    "volitional":
+      "affirmative": "たべよう"
+      "negative": "たべまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "たべます"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "たべました"
       "negative": "たべませんでした"
+    "volitional":
+      "affirmative": "たべましょう"
+      "negative": "たべますまい"

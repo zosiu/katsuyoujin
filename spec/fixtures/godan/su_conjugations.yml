@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "はなした"
       "negative": "はなさなかった"
+    "volitional":
+      "affirmative": "はなそう"
+      "negative": "はなすまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "はなします"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "はなしました"
       "negative": "はなしませんでした"
+    "volitional":
+      "affirmative": "はなしましょう"
+      "negative": "はなしますまい"

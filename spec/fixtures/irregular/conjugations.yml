@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "した"
       "negative": "しなかった"
+    "volitional":
+      "affirmative": "しよう"
+      "negative": "するまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "します"
@@ -13,6 +16,9 @@
     "past_indicative":
       "affirmative": "しました"
       "negative": "しませんでした"
+    "volitional":
+      "affirmative": "しましょう"
+      "negative": "しますまい"
 "来る":
   "casual":
     "nonpast_indicative":
@@ -21,6 +27,9 @@
     "past_indicative":
       "affirmative": "きた"
       "negative": "こなかった"
+    "volitional":
+      "affirmative": "こよう"
+      "negative": "くるまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "きます"
@@ -28,3 +37,6 @@
     "past_indicative":
       "affirmative": "きました"
       "negative": "きませんでした"
+    "volitional":
+      "affirmative": "きましょう"
+      "negative": "きますまい"

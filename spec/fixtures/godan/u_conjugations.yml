@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "あらった"
       "negative": "あらわなかった"
+    "volitional":
+      "affirmative": "あらおう"
+      "negative": "あらうまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "あらいます"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "あらいました"
       "negative": "あらいませんでした"
+    "volitional":
+      "affirmative": "あらいましょう"
+      "negative": "あらいますまい"

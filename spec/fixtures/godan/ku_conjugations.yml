@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "あるいた"
       "negative": "あるかなかった"
+    "volitional":
+      "affirmative": "あるこう"
+      "negative": "あるくまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "あるきます"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "あるきました"
       "negative": "あるきませんでした"
+    "volitional":
+      "affirmative": "あるきましょう"
+      "negative": "あるきますまい"

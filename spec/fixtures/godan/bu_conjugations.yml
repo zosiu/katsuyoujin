@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "よんだ"
       "negative": "よばなかった"
+    "volitional":
+      "affirmative": "よぼう"
+      "negative": "よぶまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "よびます"
@@ -13,3 +16,7 @@
     "past_indicative":
       "affirmative": "よびました"
       "negative": "よびませんでした"
+    "volitional":
+      "affirmative": "よびましょう"
+      "negative": "よびますまい"
+

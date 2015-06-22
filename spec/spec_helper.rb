@@ -24,7 +24,8 @@ end.freeze
 IRREGULAR_CONJUGATIONS = YAML.load_file('spec/fixtures/irregular/conjugations.yml').freeze
 
 CONJUGATION_TYPES = ['nonpast_indicative',
-                     'past_indicative'].freeze
+                     'past_indicative',
+                     'volitional'].freeze
 
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true

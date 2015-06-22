@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "のんだ"
       "negative": "のまなかった"
+    "volitional":
+      "affirmative": "のもう"
+      "negative": "のむまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "のみます"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "のみました"
       "negative": "のみませんでした"
+    "volitional":
+      "affirmative": "のみましょう"
+      "negative": "のみますまい"

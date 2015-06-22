@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "つくった"
       "negative": "つくらなかった"
+    "volitional":
+      "affirmative": "つくろう"
+      "negative": "つくるまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "つくります"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "つくりました"
       "negative": "つくりませんでした"
+    "volitional":
+      "affirmative": "つくりましょう"
+      "negative": "つくりますまい"

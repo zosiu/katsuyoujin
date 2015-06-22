@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "しんだ"
       "negative": "しななかった"
+    "volitional":
+      "affirmative": "しのう"
+      "negative": "しぬまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "しにます"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "しにました"
       "negative": "しにませんでした"
+    "volitional":
+      "affirmative": "しにましょう"
+      "negative": "しにますまい"

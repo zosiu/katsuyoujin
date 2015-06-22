@@ -13,6 +13,13 @@
     "negative":
       "base": "あ"
       "attachment": "なかった"
+  "volitional":
+    "affirmative":
+      "base": "お"
+      "attachment": ""
+    "negative":
+      "base": "う"
+      "attachment": "まい"
 "polite":
   "nonpast_indicative":
     "affirmative":
@@ -28,3 +35,10 @@
     "negative":
       "base": "い"
       "attachment": "ませんでした"
+  "volitional":
+    "affirmative":
+      "base": "い"
+      "attachment": "ましょう"
+    "negative":
+      "base": "い"
+      "attachment": "ますまい"

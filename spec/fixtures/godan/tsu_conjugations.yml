@@ -6,6 +6,9 @@
     "past_indicative":
       "affirmative": "まった"
       "negative": "またなかった"
+    "volitional":
+      "affirmative": "まとう"
+      "negative": "まつまい"
   "polite":
     "nonpast_indicative":
       "affirmative": "まちます"
@@ -13,3 +16,6 @@
     "past_indicative":
       "affirmative": "まちました"
       "negative": "まちませんでした"
+    "volitional":
+      "affirmative": "まちましょう"
+      "negative": "まちますまい"
