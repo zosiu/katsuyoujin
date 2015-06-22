@@ -45,16 +45,8 @@ module Katsuyoujin
       'くる' == base_form_hiragana
     end
 
-    def godan_iru_eru?
-      GODAN_IRU_ERU.include?(base_form_hiragana)
-    end
-
-    def godan_kuru_suru?
-      GODAN_KURU_SURU.include?(base_form)
-    end
-
     def irregular_godan?
-      godan_iru_eru? || godan_kuru_suru?
+      Katsuyoujin.ruleset('godan/irregular').include?(base_form_hiragana)
     end
 
     def ichidan?

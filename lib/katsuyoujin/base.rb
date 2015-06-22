@@ -18,15 +18,16 @@ module Katsuyoujin
     private
 
     def ichidan_base(base_letter, hiragana: true)
-      verb_root(hiragana) + ICHIDAN_BASE_TABLE[base_letter]
+      verb_root(hiragana) + Katsuyoujin.ruleset('ichidan/base')[base_letter]
     end
 
     def godan_base(base_letter, hiragana: true)
-      verb_root(hiragana) + GODAN_BASE_TABLE[base_letter][verb.ending]
+      verb_root(hiragana) + Katsuyoujin.ruleset('godan/base')[base_letter][verb.ending]
     end
 
     def irregular_base(base_letter, hiragana: true)
-      IRREGULAR_BASE_TABLE[base_letter][verb.hiragana_ending][hiragana ? 'hiragana' : 'kanji']
+      form = hiragana ? 'hiragana' : 'kanji'
+      Katsuyoujin.ruleset('irregular/base')[base_letter][verb.hiragana_ending][form]
     end
 
     def verb_root(hiragana = true)
