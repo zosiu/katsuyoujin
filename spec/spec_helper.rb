@@ -1,7 +1,7 @@
 require 'simplecov-gem-profile'
-require 'coveralls'
-Coveralls.wear! 'gem' if ENV['COVERALLS_REPO_TOKEN']
+require 'codeclimate-test-reporter'
 SimpleCov.start 'gem' if ENV['COVERAGE']
+CodeClimate::TestReporter.start if ENV['CODECLIMATE_REPO_TOKEN']
 
 require 'katsuyoujin'
 require_relative 'support/shared_examples_for_conjugations'

@@ -27,5 +27,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'simplecov-gem-profile'
   spec.add_development_dependency 'rubycritic'
-  spec.add_development_dependency 'coveralls'
 end
