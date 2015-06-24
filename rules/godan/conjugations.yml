@@ -20,6 +20,16 @@
     "negative":
       "base": "う"
       "attachment": "まい"
+  "continuative":
+    "affirmative":
+      "base": "て"
+      "attachment": ""
+    "negative":
+      "base": "あ"
+      "attachment": "ないで"
+    "negative_alt":
+      "base": "あ"
+      "attachment": "なくて"
 "polite":
   "nonpast_indicative":
     "affirmative":
@@ -42,3 +52,10 @@
     "negative":
       "base": "い"
       "attachment": "ますまい"
+  "continuative":
+    "affirmative":
+      "base": "い"
+      "attachment": "まして"
+    "negative":
+      "base": "い"
+      "attachment": "ませんで"
