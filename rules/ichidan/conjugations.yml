@@ -46,6 +46,13 @@
     "negative_alt":
       "base": "あ"
       "attachment": "なくて"
+  "imperative":
+    "affirmative":
+      "base": "い"
+      "attachment": "なさい"
+    "negative":
+      "base": "い"
+      "attachment": "なさるな"
 "polite":
   "nonpast_indicative":
     "affirmative":
