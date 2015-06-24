@@ -14,6 +14,9 @@
 "causative":
   "base": "あ"
   "attachment": "せる"
+"causative_passive":
+  "base": "あ"
+  "attachment": "せられる"
 "casual":
   "nonpast_indicative":
     "affirmative":
