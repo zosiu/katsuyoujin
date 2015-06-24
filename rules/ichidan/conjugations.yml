@@ -1,3 +1,6 @@
+"passive":
+  "base": "あ" # root
+  "attachment": "られる"
 "infinitive":
   "base": "あ" # root
   "attachment": "させる"

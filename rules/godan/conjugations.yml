@@ -1,5 +1,8 @@
+"passive":
+  "base": "あ"t
+  "attachment": "れる"
 "infinitive":
-  "base": "あ" # root
+  "base": "あ"
   "attachment": "せる"
 "casual":
   "nonpast_indicative":
