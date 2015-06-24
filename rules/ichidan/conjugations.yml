@@ -1,3 +1,10 @@
+"provisional":
+  "affirmative":
+    "base": "え"
+    "attachment": "ば"
+  "negative":
+    "base": "あ"
+    "attachment": "なければ"
 "potential":
   "base": "あ" # root
   "attachment": "られる"
