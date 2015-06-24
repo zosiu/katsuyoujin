@@ -1,3 +1,6 @@
+"infinitive":
+  "base": "あ" # root
+  "attachment": "させる"
 "casual":
   "nonpast_indicative":
     "affirmative":
