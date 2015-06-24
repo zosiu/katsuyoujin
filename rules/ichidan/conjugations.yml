@@ -11,7 +11,7 @@
 "passive":
   "base": "あ" # root
   "attachment": "られる"
-"infinitive":
+"causative":
   "base": "あ" # root
   "attachment": "させる"
 "casual":
